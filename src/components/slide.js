@@ -21,7 +21,7 @@ const Slide = (props) => {
 
 Slide.defaultProps = {
   Vision:
-    '"Our vision is to help in creating a world where everyone has access to financial services, regardless of their background or location. We are dedicated to creating a more inclusive future with Sorrel Banq."',
+    '"Our vision is to build towards a world where everyone has access to financial services, regardless of background or location. We are dedicated to creating a more inclusive future with Sorrel Banq."',
   rootClassName: '',
 }
 
