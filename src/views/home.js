@@ -98,13 +98,12 @@ const Home = (props) => {
         </div>
         <div className="home-section-one section-container">
           <div className="home-max-width1 max-content-container">
-            <h2  id="protocol" className="home-text13">
+            <h2 className="home-text13">
               <span className="home-text14">
                 Enabling easier access to financial services
-              </span>
-              <br className="heading2"></br>
+              </span><br/>
               <span className="heading2">
-                Regardless of location or socio-economic status
+                via Localized Stablecoins
               </span>
               <br className="heading2"></br>
             </h2>
@@ -178,7 +177,7 @@ const Home = (props) => {
             </div>
           </div>
         </div>
-        <div className="section-container">
+        <div id="features" className="section-container">
           <div className="home-max-width2 max-content-container">
             <div className="home-image-container1">
               <img
@@ -189,7 +188,7 @@ const Home = (props) => {
             </div>
             <div className="home-content-container1">
               <h1 className="home-text19">
-                <span className="home-text41">Sorrel Banq + </span><br/>
+                <span className="home-text41">Sorrel Banq </span><span className="home-text40"> + </span><br/>
                 <span className="home-text24">goStables</span>
               </h1>
               <span className="home-text25">
@@ -255,7 +254,7 @@ const Home = (props) => {
           <div className="home-max-width4 max-content-container">
             <div className="home-image-container3">
               <img
-                alt="Sorrel Vaults UX"
+                alt="Sorrel Cards UX"
                 src="https://via.placeholder.com/600x500"
                 className="home-image08"
               />
@@ -263,40 +262,12 @@ const Home = (props) => {
             <div className="home-container11">
               <div className="home-content-container3">
                 <h1 className="home-text55">
-                  <span className="heading2">Earn with</span><br/>
-                  <span className="home-text60">Sorrel Vaults</span>
+                  <span className="home-text41">Wallet </span>
+                  <span>Cards</span>
                 </h1>
-                <span className="home-text61">
-                  <span>Deposit crypto assets such as TRX, BTC into vaults to earn gStables without having to sell those assets.</span>
-                  <br></br>
-                  <br></br>
-                  <span>More Vaults with benefits coming soon!</span>
-                  <br></br>
-                  <br></br>
-                </span>
-              </div>
-              <a href="https://app.sorrelbanq.org/"  target="_blank"><button className="button-primary button navbar-primary-btn1">Launch App</button></a>
-            </div>
-          </div>
-        </div>
-        <div className="section-container">
-          <div className="home-max-width3 max-content-container">
-            <div className="home-content-container2">
-              <h1 className="home-text40">
-                <span className="home-text41">Wallet</span>
-                <span> Balances</span>
-
-              </h1>
-              <div className="home-container06">
-                <div className="home-container07">
-                  <div className="home-container08">
-                    <div className="home-container09"></div>
-                  </div>
-                </div>
-              </div>
               <span className="home-text43">
                 <span>
-                  View your gStables and Vault deposits in a simple, unified view.
+                  Sorrel Wallet Cards are physical wallet cards with NFC and NFT technology, allowing our customers to easily access and manage their funds.
                 </span>
                 <br></br>
                 <span>
@@ -307,9 +278,41 @@ const Home = (props) => {
 
               </div>
                 <a href="https://app.sorrelbanq.org/"  target="_blank"><button className="button-primary button navbar-primary-btn1">Launch App</button></a>
+              </div>
+
             </div>
+          </div>
+        </div>
+        <div className="section-container">
+          <div className="home-max-width3 max-content-container">
+            <div className="home-content-container2">
+              <h1 className="home-text40">
+                  <span className="heading2">Earn with</span><br/>
+                  <span className="home-text60">Sorrel Vaults</span>
+              </h1>
+              <div className="home-container06">
+                <div className="home-container07">
+                  <div className="home-container08">
+                    <div className="home-container09"></div>
+                  </div>
+                </div>
+              </div>
+
+       
+
+
+                <span className="home-text61">
+                  <span>Deposit crypto assets such as TRX, BTC into vaults to earn gStables without having to sell those assets.</span>
+                  <br></br>
+                  <br></br>
+                  <br></br>
+                </span>
+              
+              <button className="button disabled">Coming Soon</button>
+</div>
+
             <div className="home-image-container2 wallet-ux">
-              <img alt="Wallet UX" src="https://via.placeholder.com/650x450"/>
+              <img alt="Vaults UX" src="https://via.placeholder.com/650x450"/>
 
             </div>
           </div>
@@ -323,7 +326,7 @@ const Home = (props) => {
           <div className="home-container12">
             <FeatureCard
               title="AIA Concierge Services"
-              description="our AIA Concierge will be able to provide our customers with tailored advice and recommendations based on their individual needs and preferences."
+              description="Sorrel's AIA Concierge will be able to provide our customers with tailored advice and recommendations based on their individual needs and preferences."
               rootClassName="rootClassName"
             ></FeatureCard>
             <FeatureCard

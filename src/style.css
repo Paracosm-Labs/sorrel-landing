@@ -98,6 +98,14 @@
   background-color: #2f3349;
   border: 1px solid #109e775c;
 }
+
+.button.disabled {
+    background-color: #2f3349;
+    color: #7b8ab8;
+    border: 1px solid;
+    cursor: auto;
+}
+
 .button-primary:hover {
   color: #7b8ab8;
   border-color: #7b8ab8;
