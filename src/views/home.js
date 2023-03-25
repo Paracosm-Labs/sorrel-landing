@@ -262,8 +262,8 @@ const Home = (props) => {
             <div className="home-container11">
               <div className="home-content-container3">
                 <h1 className="home-text55">
-                  <span className="home-text41">Wallet </span>
-                  <span>Cards</span>
+                  <span>Wallet </span>
+                  <span className="home-text41">Cards</span>
                 </h1>
               <span className="home-text43">
                 <span>
