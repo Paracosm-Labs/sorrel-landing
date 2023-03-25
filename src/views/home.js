@@ -267,7 +267,7 @@ const Home = (props) => {
                 </h1>
               <span className="home-text43">
                 <span>
-                  Sorrel Wallet Cards are physical wallet cards with NFC and NFT technology, allowing our customers to easily access and manage their funds.
+                  Sorrel Wallet Cards are hardware wallets that store private keys securely on an NFC chip. These cards allow our customers to easily access and manage their funds as well as sign transactions by simply tapping them on other NFC enabled mobile devices.
                 </span>
                 <br></br>
                 <span>
