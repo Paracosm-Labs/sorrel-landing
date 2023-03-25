@@ -100,7 +100,7 @@ const Home = (props) => {
           <div className="home-max-width1 max-content-container">
             <h2  id="protocol" className="home-text13">
               <span className="home-text14">
-                Everyone should have access to financial services
+                Enabling easier access to financial services
               </span>
               <br className="heading2"></br>
               <span className="heading2">
@@ -182,22 +182,19 @@ const Home = (props) => {
           <div className="home-max-width2 max-content-container">
             <div className="home-image-container1">
               <img
-                alt="Swap UX"
-                src="/playground_assets/swap-ux.jpg"
+                alt="Sorrel and goStables Integration"
+                src="https://via.placeholder.com/600x500"
                 className="home-image08"
               />
             </div>
             <div className="home-content-container1">
               <h1 className="home-text19">
-                <span className="heading2">Sorrel Banq and</span><br/>
-                <span className="home-text23 heading2">g</span>
-                <span className="home-text24">Stables</span>
+                <span className="home-text41">Sorrel Banq + </span><br/>
+                <span className="home-text24">goStables</span>
               </h1>
               <span className="home-text25">
                 <span>
-                  gStables are decentralized stablecoins on the Tron Blockchain,
-                  tracking the price of real-world currencies. Powered by the
-                  goStables Protocol.
+                  Sorrel Banq is a decentralized/on-chain bank for stablecoins. It is built on top of the goStables protocol, which enables anyone to mint, spend, trade and earn localised stablecoins, collectively called gStables.
                 </span>
                 <br></br>
                 <br></br>
@@ -223,8 +220,8 @@ const Home = (props) => {
           <div className="home-max-width3 max-content-container">
             <div className="home-content-container2">
               <h1 className="home-text40">
-                <span className="home-text41">Over-collateralized</span>
-                <span> with USDD</span>
+                <span className="home-text41">Account</span>
+                <span> Balances</span>
 
               </h1>
               <div className="home-container06">
@@ -236,9 +233,7 @@ const Home = (props) => {
               </div>
               <span className="home-text43">
                 <span>
-                  Decentralized USD (USDD) is pegged 1:1 with the price of
-                  USD and is over-collateralized with a basket of crypto assets
-                  including:
+                  View your Sorrel accounts and gStables' balances in a simple, unified view.
                 </span>
                 <br></br>
                 <span>
@@ -246,51 +241,12 @@ const Home = (props) => {
                 <br></br>
               </span>
               <div className="home-container10">
-                <img
-                  alt="BTC"
-                  src="/playground_assets/btc.png"
-                  className="home-image09"
-                /><span className="collat-name">BTC</span>
-                <img
-                  alt="TRX"
-                  src="/playground_assets/trx.png"
-                  className="home-image10"
-                /><span className="collat-name">TRX</span>
-                <img
-                  alt="ETH"
-                  src="/playground_assets/eth.png"
-                  className="home-image11"
-                /><span className="collat-name">ETH</span>
 
               </div>
-              <span className="home-text48">
-                <span>
-                  <span
-                    dangerouslySetInnerHTML={{
-                      __html: ' ',
-                    }}
-                  />
-                </span>
-                <br></br>
-                <span>
-                  USDD can be swapped for other popular crypto assets and
-                  stablecoins anytime, across multiple blockchains.
-                </span>
-                <br></br>
-                <br></br>
-                <a
-                  href="https://tdr.org"
-                  target="_blank"
-                  rel="noreferrer noopener"
-                  className="home-link"
-                >
-                  Learn more about TronDAO Reserve &gt;
-                </a>
-                <br></br>
-              </span>
+                <a href="https://app.sorrelbanq.org/"  target="_blank"><button className="button-primary button navbar-primary-btn1">Launch App</button></a>
             </div>
-            <div className="home-image-container2">
-              <USDDSvg></USDDSvg>
+            <div className="home-image-container2 accounts-ux">
+              <img alt="Accounts UX" src="https://via.placeholder.com/650x450"/>
 
             </div>
           </div>
@@ -299,28 +255,19 @@ const Home = (props) => {
           <div className="home-max-width4 max-content-container">
             <div className="home-image-container3">
               <img
-                alt="Vaults UX"
-                src="/playground_assets/vaults-ux.jpg"
+                alt="Sorrel Vaults UX"
+                src="https://via.placeholder.com/600x500"
                 className="home-image08"
               />
             </div>
             <div className="home-container11">
               <div className="home-content-container3">
                 <h1 className="home-text55">
-                  <span className="heading2">Earn with</span>
-                  <br className="heading2"></br>
-                  <span className="home-text59 heading2">g</span>
-                  <span className="home-text60">Stable Vaults</span>
+                  <span className="heading2">Earn with</span><br/>
+                  <span className="home-text60">Sorrel Vaults</span>
                 </h1>
                 <span className="home-text61">
-                  <span>Support your favourite gStable by adding USDD to gStable Vaults, freezing it for 72 hours.</span>
-                  <br></br>
-                  <br></br>
-                  <span className="home-text70">40%</span>
-                  <span>
-                    {' '}
-                    of the protocol&apos;s fees are distributed to gStable Vault users in gStables.
-                  </span>
+                  <span>Deposit crypto assets such as TRX, BTC into vaults to earn gStables without having to sell those assets.</span>
                   <br></br>
                   <br></br>
                   <span>More Vaults with benefits coming soon!</span>
@@ -362,7 +309,7 @@ const Home = (props) => {
                 <a href="https://app.sorrelbanq.org/"  target="_blank"><button className="button-primary button navbar-primary-btn1">Launch App</button></a>
             </div>
             <div className="home-image-container2 wallet-ux">
-              <img alt="Wallet UX" src="/playground_assets/wallet-ux.png"/>
+              <img alt="Wallet UX" src="https://via.placeholder.com/650x450"/>
 
             </div>
           </div>
@@ -375,37 +322,37 @@ const Home = (props) => {
           </h1>
           <div className="home-container12">
             <FeatureCard
-              title="Buy and Sell"
-              description="Buy gStables with their fiat equivalent and sell them back to fiat"
+              title="AIA Concierge Services"
+              description="our AIA Concierge will be able to provide our customers with tailored advice and recommendations based on their individual needs and preferences."
               rootClassName="rootClassName"
             ></FeatureCard>
             <FeatureCard
               title="Advanced Cards"
-              description="Trade gStables for any other crypto asset with little to no price impact"
+              description="Sorrel card holders will have a personal wallet for secure and convenient payments, as well as access their funds from any NFC-enabled device."
               rootClassName="rootClassName3"
             ></FeatureCard>
             <FeatureCard
               title="Bill Payments and Remittances"
-              description="Send to anyone,  accept gStables for new and existing products/services - boosting local and inter-regional commerce"
+              description="Send to anyone, with or without a Sorrel account. Accept gStables for new and existing products and services - boosting local and inter-regional commerce."
               rootClassName="rootClassName2"
             ></FeatureCard>
             <FeatureCard
               title="Branch Lounges"
-              description="Use gStable Vaults to kickstart online businesses and earn as the protocol grows"
+              description="Prospective and existing customers can explore our services in an immersive and interactive environment across all devices including VR."
               rootClassName="rootClassName1"
             ></FeatureCard>
             <FeatureCard
               title="Administrative Services"
-              description="Expand your liquidity depth by pairing gStables with other stablecoins and crypto assets in localised markets"
+              description="Generate documents such as statements, bank letters and other administrative documents for your Sorrel account for proofs and possible use in the real world."
               rootClassName="rootClassName1"
             ></FeatureCard>
             <FeatureCard
               title="Family Office Services"
-              description="Integrate gStables with other onchain protocols to enable sustainable yield generation"
+              description="Sorrel Family Office will be able to help families maximize the value of their investments and create a secure financial future."
               rootClassName="rootClassName1"
             ></FeatureCard>
           </div>
-          <span className="home-text88">
+          <span className="home-text88 mt-3">
             <span className="home-text89">Limitless</span>
             <span className="home-text90"> Possibilites...</span>
           </span>
