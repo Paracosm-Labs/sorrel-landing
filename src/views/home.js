@@ -255,25 +255,29 @@ const Home = (props) => {
             <div className="home-image-container3">
               <img
                 alt="Sorrel Cards UX"
-                src="https://via.placeholder.com/600x500"
+                src="https://via.placeholder.com/650x450"
                 className="home-image08"
               />
             </div>
             <div className="home-container11">
               <div className="home-content-container3">
-                <h1 className="home-text55">
-                  <span>Wallet </span>
-                  <span className="home-text41">Cards</span>
+                <h1 className="home-text40">
+                  <span className="heading2">Support + Earn via</span><br/>
+                  <span className="home-text60">Sorrel Vaults</span>
                 </h1>
-              <span className="home-text43">
-                <span>
-                  Sorrel Wallet Cards are hardware wallets that store private keys securely on an NFC chip. These cards allow our customers to easily access and manage their funds as well as sign transactions by simply tapping them on other NFC enabled mobile devices.
+
+
+                <span className="home-text61">
+                  <span>Support Sorrel Banq by adding TRX into vaults to facilitate energy free transactions for Sorrel members.<br/><br/>
+                  Support goStables Protocol by adding USDD into vaults to help increase protocol over-collateralization and stability.<br/><br/>
+                  Earn gStables, deposited into your Sorrel Account.
+                  </span>
+                  <br></br>
+                  <br></br>
+                  <br></br>
                 </span>
-                <br></br>
-                <span>
-                </span>
-                <br></br>
-              </span>
+
+
               <div className="home-container10">
 
               </div>
@@ -286,9 +290,9 @@ const Home = (props) => {
         <div className="section-container">
           <div className="home-max-width3 max-content-container">
             <div className="home-content-container2">
-              <h1 className="home-text40">
-                  <span className="heading2">Support + Earn via</span><br/>
-                  <span className="home-text60">Sorrel Vaults</span>
+              <h1 className="home-text55">
+                  <span>Wallet </span>
+                  <span className="home-text41">Cards</span>
               </h1>
               <div className="home-container06">
                 <div className="home-container07">
@@ -299,20 +303,19 @@ const Home = (props) => {
               </div>
 
        
-
-
-                <span className="home-text61">
-                  <span>Support Sorrel Banq by adding TRX into vaults to facilitate energy free transactions for Sorrel members.<br/><br/>
-                  Support goStables Protocol by adding USDD into vaults to help increase protocol over-collateralization and stability.<br/><br/>
-                  Earn gStables, deposited into your Sorrel Account.
-                  </span>
-                  <br></br>
-                  <br></br>
-                  <br></br>
+              <span className="home-text43">
+                <span>
+                  Sorrel Wallet Cards are hardware wallets that store private keys securely on an NFC chip. These cards allow our customers to easily access and manage their funds as well as sign transactions by simply tapping them on other NFC enabled mobile devices.
                 </span>
+                <br></br>
+                <br></br>
+              </span>
+
+
               
               <button className="button-primary button navbar-primary-btn1">Launch App</button>
-</div>
+          </div>
+
 
             <div className="home-image-container2 wallet-ux">
               <img alt="Vaults UX" src="https://via.placeholder.com/650x450"/>
@@ -320,6 +323,7 @@ const Home = (props) => {
             </div>
           </div>
         </div>
+
         <div className="home-features">
           <h1 className="home-text91">
             <span className="home-text85">Addons</span>
