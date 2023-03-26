@@ -287,7 +287,7 @@ const Home = (props) => {
           <div className="home-max-width3 max-content-container">
             <div className="home-content-container2">
               <h1 className="home-text40">
-                  <span className="heading2">Earn with</span><br/>
+                  <span className="heading2">Support + Earn via</span><br/>
                   <span className="home-text60">Sorrel Vaults</span>
               </h1>
               <div className="home-container06">
@@ -302,13 +302,16 @@ const Home = (props) => {
 
 
                 <span className="home-text61">
-                  <span>Deposit crypto assets such as TRX, BTC into vaults to earn gStables without having to sell those assets.</span>
+                  <span>Support Sorrel Banq by adding TRX into vaults to facilitate energy free transactions for Sorrel members.<br/><br/>
+                  Support goStables Protocol by adding USDD into vaults to help increase protocol over-collateralization and stability.<br/><br/>
+                  Earn gStables, deposited into your Sorrel Account.
+                  </span>
                   <br></br>
                   <br></br>
                   <br></br>
                 </span>
               
-              <button className="button disabled">Coming Soon</button>
+              <button className="button-primary button navbar-primary-btn1">Launch App</button>
 </div>
 
             <div className="home-image-container2 wallet-ux">
