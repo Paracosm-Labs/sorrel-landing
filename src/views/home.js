@@ -328,14 +328,14 @@ const Home = (props) => {
 
         <div className="home-features">
           <h1 className="home-text91">
-            <span className="home-text85">Addons</span>
+            <span className="home-text85">Sorrel Addons</span>
             <span> </span>
             <span className="home-text91">at a glance</span>
           </h1>
           <div className="home-container12">
             <FeatureCard
               title="AIA Concierge Services"
-              description="Sorrel's AIA Concierge will be able to provide our customers with tailored advice and recommendations based on their individual needs and preferences."
+              description="Sorrel's AIA Concierge will be able to provide our members with support, tailored advice and recommendations based on their individual needs and preferences."
               rootClassName="rootClassName"
             ></FeatureCard>
 
@@ -346,7 +346,7 @@ const Home = (props) => {
             ></FeatureCard>
             <FeatureCard
               title="Branch Lounges"
-              description="Prospective and existing customers can explore our services in an immersive and interactive environment across all devices including VR."
+              description="Explore our services in a 3D explorable and interactive environment across all devices including VR. Lounges are great for attending and hosting events."
               rootClassName="rootClassName1"
             ></FeatureCard>
             <FeatureCard
