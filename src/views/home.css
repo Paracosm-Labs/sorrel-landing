@@ -187,7 +187,7 @@ color: #c5c5c5!important;
   grid-template-columns: 1fr 1fr 1fr;
 }
 
-  .wallet-ux img {
+  .wallet-ux img, .sorrel-gostables {
     max-width: 120%;
     margin-left: 0px;
     box-shadow: none!important;

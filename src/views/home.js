@@ -182,8 +182,8 @@ const Home = (props) => {
             <div className="home-image-container1">
               <img
                 alt="Sorrel and goStables Integration"
-                src="https://via.placeholder.com/600x500"
-                className="home-image08"
+                src="/playground_assets/sorrel-gostables.jpg"
+                className="home-image08 sorrel-gostables"
               />
             </div>
             <div className="home-content-container1">
