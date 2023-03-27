@@ -320,7 +320,7 @@ const Home = (props) => {
 
 
             <div className="home-image-container2 wallet-ux">
-              <img alt="Sorrel Cards UI" className="home-image08" src="https://via.placeholder.com/650x450"/>
+              <img alt="Sorrel Cards UI" className="home-image08" src="/playground_assets/hero-image-2.png"/>
 
             </div>
           </div>
@@ -351,7 +351,7 @@ const Home = (props) => {
             ></FeatureCard>
             <FeatureCard
               title="Administrative Services"
-              description="Generate documents such as statements, bank letters and other administrative documents for your Sorrel account for proofs and possible use in the real world."
+              description="Generate official statements, bank letters and other administrative documents for your Sorrel account for proofs and possible use in the real world."
               rootClassName="rootClassName1"
             ></FeatureCard>
             <FeatureCard
