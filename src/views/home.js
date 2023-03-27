@@ -193,18 +193,18 @@ const Home = (props) => {
               </h1>
               <span className="home-text25">
                 <span>
-                  Sorrel Banq is a decentralized/on-chain bank for stablecoins. It is built on top of the goStables protocol, which enables anyone to mint, spend, trade and earn localised stablecoins, collectively called gStables.
+                  Sorrel Banq is a decentralized/on-chain bank for stablecoins. <br/><br/>Sorrel is built on top of the goStables protocol, which enables anyone to mint, spend, trade and earn localized stablecoins, collectively called gStables.
                 </span>
                 <br></br>
                 <br></br>
-                <span>gStables are over-collateralized with USDD.</span>
+                <span>gStables are collateralized with USDD.</span>
                 <br></br>
                 <br></br>
                 <span>
                   gStables can be swapped from/to USDD anytime, at their
                   real-world exchange rate
                 </span>
-                <span className="home-text33">*</span>
+                <span className="home-text33"> *</span>
                 <br></br>
                 <br></br>
                 <br></br>
@@ -346,7 +346,7 @@ const Home = (props) => {
             ></FeatureCard>
             <FeatureCard
               title="Branch Lounges"
-              description="Explore our services in a 3D explorable and interactive environment across all devices including VR. Lounges are great for attending and hosting events."
+              description="Explore our services in a 3D explorable and interactive environment across all devices including VR. Lounges are great for attending and hosting virtual events."
               rootClassName="rootClassName1"
             ></FeatureCard>
             <FeatureCard
