@@ -220,7 +220,7 @@ const Home = (props) => {
             <div className="home-content-container2">
               <h1 className="home-text40">
                 <span className="home-text41">Easy Account</span>
-                <span> Transfers</span>
+                <span> Creation + Transfers</span>
 
               </h1>
               <div className="home-container06">
@@ -232,8 +232,9 @@ const Home = (props) => {
               </div>
               <span className="home-text43">
                 <span>
-                  View and manage your Sorrel accounts in a simple, unified view.<br/><br/>
-                  Enjoy <b>FREE</b> gStable/stablecoin transfers with other Sorrel members.
+                  View and manage your Sorrel Account in a simple, unified view.<br/><br/>
+                  Enjoy <b>FREE</b> gStable transfers between other Sorrel members.<br/><br/>
+                  Transferring gStables to non members automatically makes them a new Sorrel member.
                 </span>
                 <br></br><br/>
                 <span>
