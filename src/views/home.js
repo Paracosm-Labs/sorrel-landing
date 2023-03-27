@@ -264,7 +264,7 @@ const Home = (props) => {
             <div className="home-container11">
               <div className="home-content-container3">
                 <h1 className="home-text40">
-                  <span className="heading2">Support + Earn via</span><br/>
+                  <span className="heading2">Stake + Earn via</span><br/>
                   <span className="home-text60">Sorrel Vaults</span>
                 </h1>
 
@@ -362,8 +362,7 @@ const Home = (props) => {
             ></FeatureCard>
           </div>
           <span className="home-text88 mt-3">
-            <span className="home-text89">Limitless</span>
-            <span className="home-text90"> Possibilites...</span>
+            <a href="https://app.sorrelbanq.org/"  target="_blank"><button className="button-primary button navbar-primary-btn1">Launch App</button></a>
           </span>
         </div>
         <div className="home-section-four section-container">
