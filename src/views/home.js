@@ -245,7 +245,7 @@ const Home = (props) => {
                 <a href="https://app.sorrelbanq.org/"  target="_blank"><button className="button-primary button navbar-primary-btn1">Launch App</button></a>
             </div>
             <div className="home-image-container2 accounts-ux">
-              <img alt="Accounts UX" src="https://via.placeholder.com/650x450"/>
+              <img alt="Sorrel Accounts UI" className="home-image08" src="/playground_assets/accounts-ui.png"/>
 
             </div>
           </div>
@@ -254,8 +254,8 @@ const Home = (props) => {
           <div className="home-max-width4 max-content-container">
             <div className="home-image-container3">
               <img
-                alt="Sorrel Cards UX"
-                src="https://via.placeholder.com/650x450"
+                alt="Sorrel Vaults UI"
+                src="/playground_assets/vaults-ui.png"
                 className="home-image08"
               />
             </div>
@@ -269,7 +269,7 @@ const Home = (props) => {
 
                 <span className="home-text61">
                   <span>Support Sorrel Banq by adding TRX into vaults to facilitate energy free transactions for Sorrel members.<br/><br/>
-                  Support goStables Protocol by adding USDD into vaults to help increase protocol over-collateralization and stability.<br/><br/>
+                  Support goStables Protocol by adding USDD into vaults to help increase the protocol's over-collateralization and stability.<br/><br/>
                   Earn gStables, deposited into your Sorrel Account.
                   </span>
                   <br></br>
@@ -305,7 +305,7 @@ const Home = (props) => {
        
               <span className="home-text43">
                 <span>
-                  Sorrel Wallet Cards are hardware wallets that store private keys securely on an NFC chip. These cards allow our customers to easily access and manage their funds as well as sign transactions by simply tapping them on other NFC enabled mobile devices.
+                  Sorrel Wallet Cards are hardware wallets that store private keys securely on an NFC chip. <br/><br/>These cards allow our customers to easily access and manage their funds as well as sign transactions by simply tapping them on other NFC enabled mobile devices.
                 </span>
                 <br></br>
                 <br></br>
@@ -318,7 +318,7 @@ const Home = (props) => {
 
 
             <div className="home-image-container2 wallet-ux">
-              <img alt="Vaults UX" src="https://via.placeholder.com/650x450"/>
+              <img alt="Sorrel Cards UI" className="home-image08" src="https://via.placeholder.com/650x450"/>
 
             </div>
           </div>
