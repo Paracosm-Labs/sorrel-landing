@@ -190,6 +190,7 @@ color: #c5c5c5!important;
   .wallet-ux img {
     max-width: 120%;
     margin-left: 0px;
+    box-shadow: none!important;
   }
 
 .home-stat {

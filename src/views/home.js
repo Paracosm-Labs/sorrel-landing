@@ -78,7 +78,7 @@ const Home = (props) => {
               </div>
             </div>
             <div className="home-image-container">
-              <img src="/playground_assets/hero-image.png"/>
+              <img src="/playground_assets/hero-image.jpg"/>
             </div>
           </div>
         </div>
@@ -307,7 +307,8 @@ const Home = (props) => {
        
               <span className="home-text43">
                 <span>
-                  Sorrel Wallet Cards are hardware wallets that store private keys securely on an NFC chip. <br/><br/>These cards allow our members to easily access and manage their funds as well as sign transactions by simply tapping them on other NFC enabled mobile devices.
+                  Sorrel Wallet Cards are hardware wallets that store private keys securely on an NFC chip. <br/><br/>These cards allow our members to easily access and manage their funds as well as sign transactions by simply tapping them on other NFC enabled mobile devices.<br/><br/>
+                  Let's contribute to an opensource card payments network.
                 </span>
                 <br></br>
                 <br></br>
@@ -320,7 +321,7 @@ const Home = (props) => {
 
 
             <div className="home-image-container2 wallet-ux">
-              <img alt="Sorrel Cards UI" className="home-image08" src="/playground_assets/hero-image-2.png"/>
+              <img alt="Sorrel Cards UI" className="home-image08" src="/playground_assets/cards-mockup.jpg"/>
 
             </div>
           </div>
