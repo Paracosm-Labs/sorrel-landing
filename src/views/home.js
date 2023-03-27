@@ -219,8 +219,8 @@ const Home = (props) => {
           <div className="home-max-width3 max-content-container">
             <div className="home-content-container2">
               <h1 className="home-text40">
-                <span className="home-text41">Account</span>
-                <span> Balances</span>
+                <span className="home-text41">Easy Account</span>
+                <span> Transfers</span>
 
               </h1>
               <div className="home-container06">
@@ -232,9 +232,10 @@ const Home = (props) => {
               </div>
               <span className="home-text43">
                 <span>
-                  View your Sorrel accounts and gStables' balances in a simple, unified view.
+                  View and manage your Sorrel accounts in a simple, unified view.<br/><br/>
+                  Enjoy <b>FREE</b> gStable/stablecoin transfers with other Sorrel members.
                 </span>
-                <br></br>
+                <br></br><br/>
                 <span>
                 </span>
                 <br></br>
@@ -305,7 +306,7 @@ const Home = (props) => {
        
               <span className="home-text43">
                 <span>
-                  Sorrel Wallet Cards are hardware wallets that store private keys securely on an NFC chip. <br/><br/>These cards allow our customers to easily access and manage their funds as well as sign transactions by simply tapping them on other NFC enabled mobile devices.
+                  Sorrel Wallet Cards are hardware wallets that store private keys securely on an NFC chip. <br/><br/>These cards allow our members to easily access and manage their funds as well as sign transactions by simply tapping them on other NFC enabled mobile devices.
                 </span>
                 <br></br>
                 <br></br>
@@ -313,7 +314,7 @@ const Home = (props) => {
 
 
               
-              <button className="button-primary button navbar-primary-btn1">Launch App</button>
+              <button className="button-primary button navbar-primary-btn1 disabled">Coming Soon</button>
           </div>
 
 
@@ -336,11 +337,7 @@ const Home = (props) => {
               description="Sorrel's AIA Concierge will be able to provide our customers with tailored advice and recommendations based on their individual needs and preferences."
               rootClassName="rootClassName"
             ></FeatureCard>
-            <FeatureCard
-              title="Advanced Cards"
-              description="Sorrel card holders will have a personal wallet for secure and convenient payments, as well as access their funds from any NFC-enabled device."
-              rootClassName="rootClassName3"
-            ></FeatureCard>
+
             <FeatureCard
               title="Bill Payments and Remittances"
               description="Send to anyone, with or without a Sorrel account. Accept gStables for new and existing products and services - boosting local and inter-regional commerce."
