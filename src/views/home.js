@@ -65,14 +65,14 @@ const Home = (props) => {
                 </div>
               </div>
               <div className="home-input-container">
-                <a href="https://app.sorrelbanq.org"  target="_blank">
+                <a href="https://forum.trondao.org/t/sorrel-banq-essential-banking-for-anyone-anywhere/16647/"  target="_blank">
                   <button className="home-button button-primary button">
                     Get started
                   </button>
                 </a>
                 <a href="https://docs.sorrelbanq.org/">
                   <button className="home-button1 button-primary button">
-                    How it Works
+                    Learn More
                   </button>
                 </a>
               </div>
