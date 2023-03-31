@@ -334,6 +334,13 @@ const Home = (props) => {
             <span className="home-text91">at a glance</span>
           </h1>
           <div className="home-container12">
+
+            <FeatureCard
+              title="Administrative Services"
+              description="Generate official statements, bank letters and other administrative tasks on your Sorrel account for extended utility and possible use in the real world."
+              rootClassName="rootClassName1"
+            ></FeatureCard>
+
             <FeatureCard
               title="AIA Concierge Services"
               description="Sorrel's AIA Concierge will be able to provide our members with support, tailored advice and recommendations based on their individual needs and preferences."
@@ -341,20 +348,17 @@ const Home = (props) => {
             ></FeatureCard>
 
             <FeatureCard
-              title="Bill Payments and Remittances"
-              description="Send to anyone, with or without a Sorrel account. Accept gStables for new and existing products and services - boosting local and inter-regional commerce."
-              rootClassName="rootClassName2"
-            ></FeatureCard>
-            <FeatureCard
               title="Branch Lounges"
               description="Explore our services in a 3D explorable and interactive environment across all devices including VR. Lounges are great for attending and hosting virtual events."
               rootClassName="rootClassName1"
             ></FeatureCard>
+
             <FeatureCard
-              title="Administrative Services"
-              description="Generate official statements, bank letters and other administrative documents for your Sorrel account for proofs and possible use in the real world."
-              rootClassName="rootClassName1"
+              title="Payments and Remittances"
+              description="Send to anyone, with or without a Sorrel account. Accept gStables for new and existing products and services - boosting local and inter-regional commerce. Peer 2 Peer Powered."
+              rootClassName="rootClassName2"
             ></FeatureCard>
+
             <FeatureCard
               title="Family Office Services"
               description="Sorrel Family Office will be able to help families maximize the value of their investments and create a secure financial future."
