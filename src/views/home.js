@@ -307,7 +307,7 @@ const Home = (props) => {
        
               <span className="home-text43">
                 <span>
-                  Sorrel Wallet Cards are hardware wallets that store private keys securely on an NFC chip. <br/><br/>These cards allow our members to easily access and manage their funds as well as sign transactions by simply tapping them on other NFC enabled mobile devices.<br/><br/>
+                  Sorrel Wallet Cards are hardware wallets that store private keys securely on an NFC chip. <br/><br/>These cards allow our members to easily access and manage their funds as well as sign transactions by simply tapping them on NFC enabled Android phones.<br/><br/>
                   Let's contribute to an opensource card payments network.
                 </span>
                 <br></br>
