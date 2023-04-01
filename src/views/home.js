@@ -193,23 +193,39 @@ const Home = (props) => {
               </h1>
               <span className="home-text25">
                 <span>
-                  Sorrel Banq is a decentralized/on-chain bank for stablecoins. <br/><br/>Sorrel is built on top of the goStables protocol, which enables anyone to mint, spend, trade and earn localized stablecoins, collectively called gStables.
+                  Sorrel Banq is a modular decentralized/on-chain bank for stablecoins. <br/><br/>Sorrel is built on top of the goStables protocol, which enables anyone to mint, spend, trade and earn localized stablecoins, collectively called gStables.
                 </span>
                 <br></br>
-                <br></br>
-                <span>gStables are collateralized with USDD.</span>
                 <br></br>
                 <br></br>
                 <span>
-                  gStables can be swapped from/to USDD anytime, at their
-                  real-world exchange rate
+                  Sorrel also supports popular stablecoins:
                 </span>
-                <span className="home-text33"> *</span>
                 <br></br>
                 <br></br>
-                <br></br>
-                <span className="home-text37">*+ 0.3% </span>
-                <span className="home-text38">Protocol fee</span>
+                    <div className="home-container10">
+
+                      <img
+                        alt="USDD"
+                        src="/playground_assets/usdd.png"
+                        className="home-image10"
+                      /><span className="collat-name">USDD</span>
+                      <img
+                        alt="USDT"
+                        src="/playground_assets/usdt.png"
+                        className="home-image11"
+                      /><span className="collat-name">USDT</span>
+                      <img
+                        alt="USDC"
+                        src="/playground_assets/usdc.png"
+                        className="home-image12"
+                      /><span className="collat-name">USDC</span>
+                      <img
+                        alt="TUSD"
+                        src="/playground_assets/tusd.png"
+                        className="home-image13"
+                      /><span className="collat-name">TUSD</span>
+                    </div>
                 <br></br>
               </span>
             </div>
@@ -233,8 +249,8 @@ const Home = (props) => {
               <span className="home-text43">
                 <span>
                   View and manage your Sorrel Account in a simple, unified view.<br/><br/>
-                  Enjoy <b>FREE</b> gStable transfers between other Sorrel members.<br/><br/>
-                  Transferring gStables to non members automatically makes them a new Sorrel member.
+                  Transferring stablecoins to non members automatically creates them a New Sorrel Account.<br/><br/>
+                  <b>Enjoy Energy Free Transfers</b> between Sorrel members, while resources last.
                 </span>
                 <br></br><br/>
                 <span>
@@ -355,7 +371,7 @@ const Home = (props) => {
 
             <FeatureCard
               title="Payments and Remittances"
-              description="Send to anyone, with or without a Sorrel account. Accept gStables for new and existing products and services - boosting local and inter-regional commerce. Peer 2 Peer Powered."
+              description="Send to anyone, with or without a Sorrel account. Accept gStables for new and existing products and services - boosting local and inter-regional commerce. Peer-to-Peer Powered."
               rootClassName="rootClassName2"
             ></FeatureCard>
 
