@@ -236,7 +236,7 @@ const Home = (props) => {
             <div className="home-content-container2">
               <h1 className="home-text40">
                 <span className="home-text41">Easy Account</span>
-                <span> Creation + Transfers</span>
+                <span> Creation + <span className="green">Transfers</span></span>
 
               </h1>
               <div className="home-container06">
@@ -250,7 +250,7 @@ const Home = (props) => {
                 <span>
                   View and manage your Sorrel Account in a simple, unified view.<br/><br/>
                   Transferring stablecoins to non members automatically creates them a New Sorrel Account.<br/><br/>
-                  <b>Enjoy Energy Free Transfers</b> between Sorrel members, while resources last.
+                  Enjoy <b>Energy Free <span>Transactions</span></b> between Sorrel members, while shared resources are available.
                 </span>
                 <br></br><br/>
                 <span>

@@ -456,6 +456,15 @@ color: #c5c5c5!important;
 .home-text43 {
   color: var(--dl-color-grays-gray60);
 }
+
+.home-text43 b{
+  color:#a761d1;
+}
+.green, .home-text43 b span{
+  color:#109e77!important;
+}
+
+
 .home-container10 {
   margin: 0px;
   display: flex;
