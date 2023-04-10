@@ -65,12 +65,12 @@ const Home = (props) => {
                 </div>
               </div>
               <div className="home-input-container">
-                <a href="https://forum.trondao.org/t/sorrel-banq-essential-banking-for-anyone-anywhere/16647/"  target="_blank">
+                <a href="https://app.sorrelbanq.org"  target="_blank">
                   <button className="home-button button-primary button">
                     Get started
                   </button>
                 </a>
-                <a href="https://docs.sorrelbanq.org/">
+                <a href="https://forum.trondao.org/t/sorrel-banq-essential-banking-for-anyone-anywhere/16647/" target="_blank">
                   <button className="home-button1 button-primary button">
                     Learn More
                   </button>
@@ -250,11 +250,16 @@ const Home = (props) => {
                 <span>
                   View and manage your Sorrel Account in a simple, unified view.<br/><br/>
                   Transferring stablecoins to non members automatically creates them a New Sorrel Account.<br/><br/>
+                </span>
+                  <img 
+                    src="/playground_assets/energy-free.png"
+                    height="32"
+                    width="38"
+                  />
+                <div className="energyFree">
                   Enjoy <b>Energy Free <span>Transactions</span></b> between Sorrel members, while shared resources are available.
-                </span>
+                </div>
                 <br></br><br/>
-                <span>
-                </span>
                 <br></br>
               </span>
               <div className="home-container10">

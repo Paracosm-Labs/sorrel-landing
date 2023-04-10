@@ -5,6 +5,12 @@
 
 .mt-3{margin-top: 3em;}
 
+
+.energyFree{
+    margin-left: 40px;
+    margin-top: -35px;
+}
+
 .home-container {
   width: 100%;
   display: flex;
