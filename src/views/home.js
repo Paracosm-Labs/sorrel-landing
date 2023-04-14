@@ -363,7 +363,7 @@ const Home = (props) => {
 
             <FeatureCard
               title="Administrative Services"
-              description="Generate official statements, bank letters and other administrative tasks on your Sorrel account for extended utility and possible use in the real world."
+              description="Generate official statements, bank letters and other recurring administrative tasks on your Sorrel account for extended utility and possible use in the real world."
               rootClassName="rootClassName1"
             ></FeatureCard>
 
